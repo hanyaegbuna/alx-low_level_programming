@@ -2,11 +2,11 @@
 
 #include <unistd.h>
 
-/** main - entry poin
+/**
+ * main - entry poin
  * Description: point two digits combination
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int c, i;
