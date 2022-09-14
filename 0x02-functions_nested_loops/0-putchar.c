@@ -9,7 +9,7 @@
  *
  */
 
-int main(void)
+int _putchar(char c)
 {
 	putchar('_');
 	putchar('p');
