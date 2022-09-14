@@ -5,8 +5,10 @@
 /**
  * Main - Entry
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
+ *
  */
+
 int main(void)
 {
 	putchar('_');
@@ -14,11 +16,9 @@ int main(void)
 	putchar('u');
 	putchar('t');
 	putchar('c');
-	putchar('h');
 	putchar('a');
 	putchar('r');
 	putchar('\n');
 
 	return (0);
 }
-
