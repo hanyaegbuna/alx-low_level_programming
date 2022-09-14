@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
- * Main - Entry
+ * main - Entry
  * prints _putchar - a program that prints _putchar
  * Return: Always 0 (Success)
  */
