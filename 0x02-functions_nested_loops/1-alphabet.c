@@ -5,14 +5,17 @@
  * print_alphabet - a function that prints the alphabet, in lower case
  * Return: Always 0 (Succes)
  */
-int main(void)
+
 void print_alphabet(void)
 {
-	int n;
+	int alpha;
 
-	for (n = 'a'; n <= 'z'; n++)
+	alpha = 'a';
+
+	while (alpha <= 'z')
 	{
-		_putchar(n);
+		_putchar(alpha);
+		alpha = alpha + 1;
 	}
 	_putchar('\n');
 }
