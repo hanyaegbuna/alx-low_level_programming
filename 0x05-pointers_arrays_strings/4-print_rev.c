@@ -6,7 +6,6 @@
  * @n: The number of elements in the array.
  */
 void print_rev(char *s)
-void reverse_array(int *a, int n)
 {
 	int tmp, index;
 
