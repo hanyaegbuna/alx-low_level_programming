@@ -5,14 +5,17 @@
  * @a: The array of integers to be reversed.
  * @n: The number of elements in the array.
  */
-void reverse_array(int *a, int n)
+void print_rev(char *s)
 {
-	int tmp, index;
+	int i, n;
 
-	for (index = n - 1; index >= n / 2; index--)
+	n = 0;
+	while (s[n] != '\0')
+		n++;
+
+	for (i = n - 1, i >= 0; i--)
 	{
-		tmp = a[n - 1 - index];
-		a[n - 1 - index] = a[index];
-		a[index] = tmp;
+		_putchar(s[i]);
 	}
+	_putchar('\n');
 }
