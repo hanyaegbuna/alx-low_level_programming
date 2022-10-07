@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * array_range - creates an array of integers.
  * @min: minimum value.
@@ -10,13 +9,14 @@
  * if man > mix, returns NULL.
  * if malloc fails, returns NULL.
  */
+
 int *array_range(int min, int max)
 {
 	int *ar;
 	int i;
 
 	if (min > max)
-		return(NULL);
+		return (NULL);
 
 	ar = malloc(sizeof(*ar) * ((max - min) + 1));
 
